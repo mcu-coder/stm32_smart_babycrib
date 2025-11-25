@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TASK\git -I ..\TASK\task -I ..\TASK\timer -I ..\NET\device -I ..\NET\Json -I ..\NET\mqtt -I ..\NET\onenet -I ..\NET\massage -I ..\HARDWARE\ADXL345 -I ..\HARDWARE\KEY -I ..\HARDWARE\OLED-SPI -I ..\HARDWARE\LED -I ..\HARDWARE\MAX30102 -I ..\HARDWARE\USART2 -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\DHT11 -I ..\HARDWARE\ADC -I ..\HARDWARE\RELAY -I ..\HARDWARE\LEVEL -I ..\HARDWARE\SGP30 -I ..\HARDWARE\SG90
+-IA:\Keil_v5\Pack\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+-D__UVISION_VERSION="540" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\git.o --omf_browse ..\obj\git.crf --depend ..\obj\git.d "..\TASK\git\git.c"

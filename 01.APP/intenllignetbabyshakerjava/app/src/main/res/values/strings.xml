@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">智能婴儿摇床</string>
+    <string name="debug">调试</string>
+    <string name="history">喂奶日志</string>
+    <string name="setting">设置</string>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="musicCheck">
+        <item>Music~1</item>
+        <item>Music~2</item>
+        <item>Music~3</item>
+        <item>Music~4</item>
+        <item>Music~5</item>
+        <item>Music~6</item>
+        <item>Music~7</item>
+        <item>Music~8</item>
+        <item>Music~9</item>
+    </string-array>
+</resources>
